@@ -1,4 +1,4 @@
-const User = require("../models/user");
+const User = require("../models/User");
 const Role = require("../models/role");
 
 // Register a new user with a role
