@@ -8,6 +8,7 @@ class Permissions {
 
   getPermissionsByRoleName(roleName) {
     const role = roles.roles.find((r) => r.name === roleName);
+    console.log("roleee", role);
     return role ? role.permissions : [];
   }
 }
